@@ -83,25 +83,44 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-style: inherit;
+  outline:0;
+  font-weight: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
-
+focus {
+  outline: 0;
+}
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  max-width: 100%;
+  border:1px solid #000;
+}
 html {
-  background-color: #f9f9f9;
+  background-color: #fff;
   font-size: 62.5%;
 }
+section {
+  border: 1px solid #000;
+  padding: 4% 0;
+}
 body {
-  font-size: 1.6rem;
+  font-size: 2rem;
   line-height: 1.5;
   color: #4f4f4f;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 h1 {
-  font-family: 'Chelsea Market', cursive;
+  font-family: "Chelsea Market", cursive;
+  font-size: 5rem;
+  display: inline;
 }
 section {
   padding: 4% 0;
+  margin: 5rem;
 }
 a {
   text-decoration: none;
@@ -120,22 +139,52 @@ nav a {
 .orange {
   background-color: #ff764e;
   margin-left: 10%;
+  font-size: 1.5rem;
 }
 .blue {
   background-color: #5ed3eb;
   margin: 0 24%;
+  font-size: 1.5rem;
+
+
 }
 .yellow {
   background-color: #ffcd69;
   margin-right: 10%;
+  font-size: 1.5rem;
+
+
 }
 .left .right {
   display: inline-block;
 }
 .left {
+  display: inline;
+}
+.left img {
+  padding: 1%;
+  width: 20%;
+  border-radius: 50%;S
+}
+.right {
+  display: inline;
 }
 .brown {
-  margin: 1rem;
+  margin: 0rem;
+  padding: 1rem 3rem;
   background-color: #ddb9a3;
   color: whitesmoke;
+}
+.cartoons img {
+  width: 10%;
+  ;
+  display: inline;
+}
+.bottom {
+  margin:0;
+  padding: 0;
+}
+.bottom img {
+  width: ;
+  height: 2%;
 }
