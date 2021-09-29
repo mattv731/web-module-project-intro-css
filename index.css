@@ -190,6 +190,7 @@ nav a {
 }
 .camping {
   margin-top: 2%;
+  margin-bottom: 2%;
 }
 .bottom {
   margin: 0;
@@ -197,7 +198,8 @@ nav a {
 }
 .bottom img {
   width: 100%;
-  max-height: 10rem;
+  max-height: 400px;
+  object-fit: cover;
 }
 .text p {
   text-align: center;
